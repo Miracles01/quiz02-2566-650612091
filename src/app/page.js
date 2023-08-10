@@ -129,7 +129,7 @@ export default function HomePage() {
             <span style={{ color: "#E4E6EB" }}>ไม่ไปค่า</span>
             <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
-              <span style={{ color: "#B0B3B8" }}>21,546,987 คน</span>
+              <span style={{ color: "#B0B3B8" }}>0 คน</span>
             </div>
           </div>
         </div>
