@@ -7,8 +7,13 @@ export const Comment = ({
 }) => {
   return (
     <div>
-      your code here...
-      {/* map-loop render Reply component here */}
+      <div>{userImagePath}</div>
+      <span>{username}</span>
+      <span>{commentText}</span>
+      <div>
+        <span>{likeNum}</span>
+      </div>
+      <span>{replies}</span>
     </div>
   );
 };
